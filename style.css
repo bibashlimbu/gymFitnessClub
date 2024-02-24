@@ -826,4 +826,14 @@ body {
   .dots {
     bottom: -1% !important;
   }
+
+  /* contact */
+  .contact span {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .contact span i {
+    font-size: 1.5rem;
+  }
 }
