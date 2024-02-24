@@ -83,6 +83,10 @@ body {
   color: var(--site-color) !important;
 }
 
+.navbar-toggler {
+  color: transparent !important;
+}
+
 .buttons {
   border: 1px solid var(--site-color);
   padding: 8px 12px;
@@ -752,7 +756,7 @@ body {
 
   .we-do {
     width: 100% !important;
-    padding: 6rem 1rem !important;
+    padding: 6rem 1rem 0 !important;
   }
 
   .right-button,
@@ -780,6 +784,11 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  /* logo */
+  .navbar-brand img {
+    width: 3rem;
+  }
+
   /* model */
   .model {
     max-width: 22rem !important;
