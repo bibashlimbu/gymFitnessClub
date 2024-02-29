@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--site-background-color) !important;
   font-family: "Poppins", sans-serif;
