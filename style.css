@@ -3,7 +3,7 @@
   --font-color: rgb(255, 255, 255);
   --secondary-font-color: #cecdcd;
   --section-padding: 100px;
-  --site-background-color: rgb(21, 21, 21);
+  --site-background-color: rgb(14, 14, 14);
 }
 
 * {
@@ -784,6 +784,9 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden !important;
+  }
   /* logo */
   .navbar-brand img {
     width: 3rem;
@@ -818,6 +821,11 @@ body {
   /* herosection */
   .slogan h1 {
     font-size: 3rem;
+  }
+
+  /* about us */
+  .offering-container {
+    gap: 42px !important;
   }
 
   /* service */
