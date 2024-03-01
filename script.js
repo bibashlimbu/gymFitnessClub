@@ -198,3 +198,14 @@ dotsContainer.addEventListener("click", (e) => {
     activateDot(slide);
   }
 });
+
+// map
+const latLng = [26.4730524, 87.2750944];
+const map = L.map("map").setView(latLng, 13);
+
+L.tileLayer("https://tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map);
+
+L.marker(latLng).addTo(map).bindPopup("Nihareeka college").openPopup();
